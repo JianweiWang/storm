@@ -35,4 +35,8 @@ public class MyUtils {
 
 	}
 
+    public static void test() {
+
+    }
+
 }
