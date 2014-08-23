@@ -13,7 +13,7 @@
 
 (defn direct-stream [fields]
   (StreamInfo. fields true))
-
+()
 (defn to-spec [avar]
   (let [m (meta avar)]
     [(str (:ns m)) (str (:name m))]))
